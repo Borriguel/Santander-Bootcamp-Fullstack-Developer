@@ -1,7 +1,9 @@
-<!-- Prática 1 - Vamos criar um arquivo index.html e adicionar o doctype e os elementos html, head e body.
-Depois adicionaremos os elementos meta e title, no primeiro adicionamos o atributo charset com o valor UTF-8 para dizer ao navegador
-qual é a codificação dos caracteres e no segundo podemos colocar nosso nome.
-E por último escreveremos nosso nome dentro do elemento body apenas para enxergarmos isso no navegador -->
+<!-- Prática 2 - Vamos abrir nosso arquivo index.html e começar pelo cabeçalho: criamos um <header> logo abaixo do <body> e colocamos o título 
+da nossa página dentro de um <h1>.
+Depois criaremos a lista de postagens: abrimos um elemento section e dentro dele adicionamos outro <header> contendo um <h2>.
+Notem que eu posso ter mais de um <header> na página.
+Para criar nossa postagem adicionamos um <article> com um <header> e um <h3>.
+O último passo desta etapa é criar um rodapé para nossas informações de contato: crie um elemento footer antes de fechar o </body>. -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,6 +11,21 @@ E por último escreveremos nosso nome dentro do elemento body apenas para enxerg
         <title>Rodolpho Henrique</title>
     </head>
     <body>
-        Rodolpho Henrique Omédio Borriguel
+        <header>
+            <h1>Rodolpho Henrique</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Posts</h2>
+            </header>
+            <article>
+                <header>
+                    <h3>Post #1</h3>
+                </header>
+            </article>
+        </section>
+        <footer>
+
+        </footer>
     </body>
 </html>
