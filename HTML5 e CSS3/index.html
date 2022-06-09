@@ -4,23 +4,24 @@ Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atribut
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
         <title>Rodolpho Henrique</title>
     </head>
     <body>
         <header>
             <img src="https://cdn-icons-png.flaticon.com/512/147/147142.png" width="100" alt="imagem ilustrativa de perfil">
-            <h1>Rodolpho Henrique</h1>
+            <h1 id="title">Rodolpho Henrique</h1>
         </header>
         <section>
             <header>
-                <h2>Posts</h2>
+                <h2 class="subtitle">Posts</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Post #1</h3>
-                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="Editor de texto com HTML" width="960">
+                    <h3 class="post_title">Post #1</h3>
+                    <img class="post_img" src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="Editor de texto com HTML" width="960">
                 </header>
-                <p>
+                <p class="post_content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     <a href="https://www.linkedin.com/in/rodo-borriguel/" target="_blank">Ut blandit interdum</a> mattis. 
                     Maecenas accumsan luctus turpis elementum maximus. Sed sollicitudin massa mauris, vitae dapibus purus tincidunt sit amet. 
@@ -32,7 +33,7 @@ Crie um elemento ul e dentro dele adicione um <li> com um elemento a, no atribut
             </article>
         </section>
         <footer>
-            <ul>
+            <ul class="contact">
                 <li><a href="mailto:rodolpho.omedio@gmail.com" target="_blank">rodolpho.omedio@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/rodo-borriguel/" target="_blank">Linkedin</a></li>
                 <li><a href="https://github.com/Borriguel" target="_blank">Github</a></li>
