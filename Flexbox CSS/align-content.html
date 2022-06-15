@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fundamentos - align content</title>
+    <style>
+        .container {
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: palevioletred;
+            padding: 0px;
+            flex: 1;
+            margin: 5px;
+            text-align: center;
+        }
+        .stretch {
+            align-content: stretch;
+        }
+        .center {
+            align-content: center;
+        }
+        .start {
+            align-content: flex-start;
+        }
+        .end {
+            align-content: flex-end;
+        }
+        .around {
+            align-content: space-around;
+        }
+        .between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container start">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container end">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+    <p>space-around</p>
+    <div class="container around">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+    <p>space-between</p>
+    <div class="container between">
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+        <div class="item">Praesent mattis turpis massa</div>
+    </div>
+</body>
+</html>
