@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fundamentos - flex grow</title>
+    <style>
+        .container {
+            max-width: 300px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+        }
+        .item {
+            background-color: rosybrown;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .grow-0 {
+            flex-grow: 0;
+        }
+        .grow-1 {
+            flex-grow: 1;
+        }
+        .grow-2 {
+            flex-grow: 2;
+        }
+        .grow-3 {
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <p>flex-grow: 0</p>
+    <div class="container">
+        <div class="item grow-0">A</div>
+        <div class="item grow-0">B</div>
+        <div class="item grow-0">C</div>
+        <div class="item grow-0">D</div>
+    </div>
+    <p>flex-grow: 1</p>
+    <div class="container">
+        <div class="item grow-1">A</div>
+        <div class="item grow-1">B</div>
+        <div class="item grow-1">C</div>
+        <div class="item grow-1">D</div>
+    </div>
+    <p>flex-grow: 2</p>
+    <div class="container">
+        <div class="item grow-2">A</div>
+        <div class="item grow-1">B</div>
+        <div class="item grow-1">C</div>
+        <div class="item grow-2">D</div>
+    </div>
+    <p>flex-grow: 3</p>
+    <div class="container">
+        <div class="item grow-1">A</div>
+        <div class="item grow-3">B</div>
+        <div class="item grow-1">C</div>
+        <div class="item grow-1">D</div>
+    </div>
+</body>
+</html>
